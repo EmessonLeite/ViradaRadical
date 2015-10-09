@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+}
+div#todo{
+    width: 1300px;
+    max-width: 100%;
+}
+/******************** TOPO DA PAGINA *********************/
+div#topo {
+    background: url("../imagens/slices/home_slice.png") no-repeat;
+    height: 790px;
+    background-size: 100%;
+}
+nav#menuSuperior li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 13pt;
+    right: 27%;
+    bottom: 110px;
+    font-family: "Dosis SemiBold";
+}
+ul{
+    float: right;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+div#texto article{
+    width: 1000px;
+    color: white;
+    right: 9.5%;
+    position: relative;
+    bottom: 50px;
+    font-family: "Dosis Extra light";
+}
+div#links a{
+    border: solid 3px white;
+    padding: 12px;
+    right: 9%;
+    position: relative;
+    font-family: "Dosis SemiBold";
+}
+div#txt{
+    position: relative;
+    margin-left: 22%;
+    top: 120px;
+}
+div#logo img{
+    width: 13%;
+    position: relative;
+    left: 15%;
+}
+
+span#contador {
+    font-family: "Dosis SemiBold";
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    float: left;
+    bottom: 155px;
+    left: -90px;
+}
+
+/******************** CENTRO DA PAGINA *********************/
+
+div#textosCentrais{
+    position: relative;
+    display: block;
+    margin: auto;
+}
+div#Evento{
+    position: relative;
+    width: 150px;
+    bottom: 250px;
+}
+div#Evento figcaption{
+    font-size: 22pt;
+    position: absolute;
+    font-family: "Dosis SemiBold";
+    margin-top: 8px;
+    color: white;
+    padding-left: 10px;
+}
+div#Evento p, div#FotosVerde p, div#TestemunhoVerde p{
+    width: 410px;
+    position: relative;
+    right: 120px;
+    font-style: italic;
+    text-align: center;
+    font-size: 14.5pt;
+    font-family: "Dosis Extra light";
+}
+article#Sobre {
+    float: left;
+    margin-left: 14%;
+}
+article#OVirada{
+    float: right;
+    position: relative;
+    right: 14%;
+    top: -408px;
+}
+article#Inscricao{
+    float: right;
+    position: relative;
+    left: 9%;
+    bottom: 286px;
+}
+h2.Titulo{
+    color: #00A8C6;
+    font-family: "Dosis SemiBold";
+}
+p.texto{
+    font-family: "Dosis Extra light";
+    text-align: justify;
+}
+article.artigos{
+    width: 300px;
+    bottom: 195px;
+    position: relative;
+}
+/******************** FOTOS DA PAGINA *********************/
+div#fotos{
+    background: url("../imagens/slices/photos_slice.png") no-repeat;
+    height: 795px;
+    background-size: 100%;
+    bottom: 90px;
+    position: relative;
+}
+div#FotosVerde {
+    position: relative;
+    width: 150px;
+}
+div#FotosVerde figcaption{
+    position: relative;
+    top: 100px;
+    font-size: 22pt;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    font-family: "Dosis SemiBold";
+}
+
+/**************** GALERIA DE FOTOS *********************/
+ul#Galeria-Fotos{
+    position: relative;
+    width: 87%;
+    margin: 0;
+    top: 50px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ul#Galeria-Fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+/******************** TESTEMUNHOS DA PAGINA *********************/
+div#testemunhos{
+    height: 100%;
+    position: relative;
+}
+div#TestemunhoVerde img{
+    width: 199px;
+}
+div#TestemunhoVerde{
+    position: relative;
+    width: 150px;
+    right: 20px;
+    bottom: 215px;
+}
+div#TestemunhoVerde figcaption{
+    position: relative;
+    top: 55px;
+    font-size: 22pt;
+    color: white;
+    margin-left: 9px;
+    font-family: "Dosis SemiBold";
+}
+/******************** TESTEMUNHOS ISABEL *********************/
+div#testemunho01{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+    float: left;
+    left: 13.5%;
+    bottom: 120px;
+    height: 451px;
+}
+article#TextoTestemunho01{
+    position: relative;
+    bottom: 240px;
+    background-color: #00A8C6;
+    color: white;
+    font-family: "Dosis light";
+    padding: 16px;
+}
+img#seta{
+    position: relative;
+    bottom: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+figure#Isabel img{
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+p#Pessoa{
+    position: relative;
+    width: 91px;
+    bottom: 263px;
+    float: right;
+    margin-right: 11px;
+    color: white;
+    font-family: "Dosis Mid";
+}
+/******************** TESTEMUNHOS ALANA *********************/
+
+div#testemunho02{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+    float: left;
+    left: 15%;
+    bottom: 120px;
+}
+article#TextoTestemunho02{
+    position: relative;
+    background-color: #00A8C6;
+    color: white;
+    font-family: "Dosis light";
+    padding: 16px;
+    bottom: 240px;
+}
+figure#FotoAlana img{
+    position: relative;
+    width: 100%;
+}
+p#Pessoa2{
+    position: relative;
+    width: 91px;
+    bottom: 263px;
+    float: right;
+    margin-right: -5px;
+    color: white;
+    font-family: "Dosis Mid";
+}
+img#seta01{
+    position: relative;
+    bottom: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/******************** TESTEMUNHOS BEATRIZ *********************/
+
+div#testemunho03{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+    float: left;
+    left: 16.5%;
+    bottom: 161px;
+}
+article#TextoTestemunho03{
+    position: relative;
+    bottom: 78px;
+    background-color: #00A8C6;
+    color: white;
+    font-family: "Dosis light";
+    padding: 16px;
+}
+figure#FotoMatheus img{
+    position: relative;
+    width: 100%;
+}
+p#Pessoa3{
+    position: relative;
+    width: 91px;
+    bottom: 104px;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-family: "Dosis Mid";
+}
+img#seta03{
+    position: relative;
+    bottom: 78px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/******************** PARTE BAIXA *********************/
+
+div#ParteBaixa{
+    background: url("../imagens/slices/banner_slice.png") no-repeat;
+    height: 477px;
+    background-size: 100%;
+    top: 400px;
+    position: relative;
+}
+div#FraseSJPII{
+    position: relative;
+    top: 35px;
+}
+div#ParteBaixa h1{
+    color: white;
+    font-size: 28pt;
+    font-family: "Dosis SemiBold";
+    position: relative;
+    top: 120px;
+    right: 35%;
+}
+div#ParteBaixa h3{
+    color: white;
+    font-size: 20pt;
+    font-family: "Dosis Mid";
+    position: relative;
+    top: 118px;
+    right: 26.7%;
+}
+div#ParteBaixa h5{
+    color: white;
+    font-size: 15pt;
+    font-family: "Dosis Mid";
+    position: relative;
+    top: 120px;
+    right: 17.3%;
+}
+

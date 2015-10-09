@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Dosis Extra light;
+    src: url(dosis.extralight.ttf);
+}
+
+@font-face {
+    font-family: Dosis light ;
+    src: url(dosis.light.ttf);
+}
+
+@font-face {
+    font-family: Dosis Mid;
+    src: url(dosis.medium.ttf);
+}
+
+@font-face {
+    font-family: Dosis SemiBold;
+    src: url(dosis.semibold.ttf);
+}
+
+@font-face {
+    font-family: Dosis Bol;
+    src: url(dosis.bold.ttf);
+}

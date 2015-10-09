@@ -1,0 +1,82 @@
+div#Galeria{
+    display: block;
+    position: relative;
+    margin-left: 12%;
+}
+.trs{
+    -webkit-transition: all ease-out 0.5s;
+    transition: all ease-out 0.5s;
+}
+#slider{
+    position: relative;
+    z-index: 1;
+    margin-left: 33%;
+    bottom: 45px;
+}
+#slider a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.ativo{
+    opacity: 1 !important;
+    filter: alpha(opacity=0);
+}
+div#Galeria span{
+    cursor: pointer;
+    position: relative;
+    width: 43px;
+    bottom: 40%;
+    height: 43px;
+}
+.next{left: 60%; position: relative; top: 60px;}
+
+.prev{left: 18%; position: relative; top: 60px}
+
+figure#SlideGaleria {
+    height: 354px;
+    position: relative;
+    margin: 50px;
+}
+div#Galeria figcaption{
+    padding-left: 20px;
+    color: #fff;
+    font-family: "Dosis Mid";
+    font-size: 22pt;
+    background: rgba(1, 144, 238, 0.76);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
