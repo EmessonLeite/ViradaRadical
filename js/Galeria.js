@@ -53,7 +53,7 @@ function setaImagem(){
         },
 
         legenda: function(obj){
-            var legenda = obj.querySelector("img").getAttribute("");
+            var legenda = obj.querySelector("img").getAttribute("alt");
             document.querySelector("figcaption").innerHTML = legenda;
         }
 
